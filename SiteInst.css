@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E1C21;
+    font-family: 'Barlow';
+    color: #ffffff;
+}
+.banner_img{
+    background-image: url(./img/cogumelo1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title img{
+    height: 8vh;
+    margin-right: 1vw;
+}
+
+.navebar li {
+    display: inline-block;
+}
+
+.navebar a{
+    color:white;
+    text-decoration: none;
+}
+
+.navebar a:hover{
+    color: rgb(8, 206, 1);
+    transition: 0.3s all;
+}
+
+.login{
+    border: 2px solid rgb(8, 206, 1);
+    border-radius: 15px;
+    width: 5vw;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login:hover{
+    background-color: rgb(14, 71, 0);
+    color: white;
+}
+
+.navebar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+
+.navebar ul{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_banner_texto{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_banner_texto h3{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.banner_h2{
+    margin: 10vh 0;
+    font-weight: 450;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.button_simulador{
+    background-color: rgb(6, 151, 1);
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    transition: 0.3s all;
+    border: 0;
+    width: 12.5vw;
+    height: 5vh;
+}
+
+.button_simulador:hover{
+    cursor: pointer;
+    background-color: rgb(14, 71, 0);
+    color: white;
+}
+
+.container_adquira_nosso_sistema{
+    background-color: #f2f2f2;
+    height: 40vh;
+    margin: 6vh 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.container_adquira_nosso_sistema img{
+    height: 30vh;
+}
+
+.container_conteudo_adquira_nosso_sistema{
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1E1C21;
+    text-align: center;
+}
+
+.container_conteudo_adquira_nosso_sistema h2{
+    color: rgb(6, 151, 1);
+}
+
+.img_beneficio {
+    background-image: url(./img/image18.png);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.img_beneficio .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: #f2f2f2;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1E1C21;
+}
+
+.titulo_beneficio{
+    color: rgb(6, 151, 1);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    height: 5vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh;
+}
+
+.container_conteudo_beneficio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_conteudo_beneficio{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 20vw;
+    height: 40vh;
+    color: #1E1C21;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container_numero_beneficio{
+    background-color: rgb(6, 151, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+    margin-bottom: 2vh;
+}
+
+.div_conteudo_beneficio h2{
+    color: rgb(6, 151, 1);
+    margin-bottom: 2vh;
+}
